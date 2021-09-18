@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+
+
+    <h1 id="Titulo">Registro</h1>
     <form id="form_nuevo_usuario" action="">
-        <label for="dato_nombre_usuario">Nombre
-            <input id="dato_nombre_usuario" type="text">
-        </label>
+
+        <label class="d_play" for="dato_nombre_usuario">Nombre</label>
+        <input class="d_play2" id="dato_nombre_usuario" type="text">
         <br>
 
-        <label for="dato_edad_usuario">Edad
-            <input id="dato_edad_usuario" type="number" min="1" max="150">
-        </label>
+        <label class="d_play" for="dato_edad_usuario">Edad</label>
+        <input class="d_play2" id="dato_edad_usuario" type="number" min="1" max="150">
         <br>
 
-        <label for="dato_contrasena">Contraseña
-            <input id="dato_contrasena" type="password">
-        </label>
+        <label class="d_play" for="dato_contrasena">Contraseña</label>
+        <input class="d_play2" id="dato_contrasena" type="password">
+        <br>
+
         <button id="enviar_registro" name="send" type="button">Enviar</button>
     </form>
 </body>
