@@ -2,8 +2,8 @@
 
 body{
     /* background-color: #cdcecf; */
-    /* background-color: rgb(144, 158, 170); */
-    background-image: url(../img/Procesador.jpeg);
+    background-color: rgb(144, 158, 170); 
+    /* background-image: url(../img/Procesador.jpeg); */
 
 }
 
@@ -14,7 +14,7 @@ body{
     border: black solid 4px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #3537b1;
-    box-shadow: 2px 3px 4px 4px #16164e;
+    box-shadow: 2px 3px 4px 4px git #16164e;
 }
 #form_nuevo_usuario{
     text-align: center;
@@ -74,6 +74,12 @@ body{
 	background-color:darkgray;
 }
 
+@media screen and (min-width: 600px) {
+    #boton_registro_usuario {
+      font-size: 12px;
+    }
+}
+
 #horizontal_navbar{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -83,9 +89,11 @@ body{
     box-shadow: 9px 9px 15px;
 }
 
+#div_im{
+    text-align: center;
+}
 #tecnotic{
     width: 500px;
-	margin-left: 550px;
 	margin-top: 0%;
     box-shadow: 11px 11px 25px;
 
